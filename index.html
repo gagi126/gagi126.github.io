@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
+  <!-- fuentes google -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
     <!-- Required meta tags -->
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,6 +15,27 @@
 	<link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!-- el fix sirve para que este siempre up -->
+  <div class="container">
+        <a class="navbar-brand" href="#">Gaston</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#header">Presentacion<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <h1>Hello, world!</h1>
 		<p>I'm hosted with GitHub Pages.</p>
     <!-- Optional JavaScript -->
@@ -20,4 +44,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
+  <header id="header"> 
+      <div class="container mt-5">
+        <div class="row"> 
+          <div class="col-md-6"> 
+            <div class="header-content-left">
+                <img src="img/foto.jpg" class="rounded mx-auto d-block" style="width: 60%"; id="foto" >
+            </div>
+          </div>
+          <div class="col-md-6 my-auto"> <!-- columna --> <!-- my indica el margen vertical -->
+            <div class="header-content-right">
+               <h1>Gaston Albornoz</h1>
+               <h3 class="mt-2">Estudiante de Tecnico Universitario en Sistemas Informaticos</h3>
+                <a href="linkedin.com/in/gaston-albornoz-8a29a2139 class="btn btn-outline-secondary btn-lg mt-2 header-btn">Mi perfil de LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 </html>
