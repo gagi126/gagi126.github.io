@@ -1,0 +1,4 @@
+body{
+  font-family: 'Red Hat Text', sans-serif;
+  background-color: #F6F2E4;
+}
