@@ -2,3 +2,11 @@ body{
   font-family: 'Red Hat Text', sans-serif;
   background-color: #F6F2E4;
 }
+
+header{
+  margin-top: 75px;
+}
+
+#header-content-right{
+  line-height: 200px;
+}
