@@ -44,9 +44,24 @@ sr.reveal('.cont-der', { //para el sobre mí
   viewFactor: 0.2
 });
 
+sr.reveal('#habilidades', { //para el habilidades
+  duration: 2000,
+  origin: 'right',
+  distance: '300px',
+  viewFactor: 0.2,
+  reset: true
+});
+
+sr.reveal('.cont-der', { //para el sobre mí
+  duration: 2000,
+  origin: 'right',
+  distance: '300px',
+  viewFactor: 0.2
+});
+
 sr.reveal('.cont-izq', { //para conocimientos izq
   duration: 2000,
-  origin: 'left',
+  origin: 'right',
   distance: '300px'
 });
 
@@ -70,6 +85,8 @@ sr.reveal('footer', { //para el contacto
   viewFactor: 0.2,
   reset: true
 });
+
+
 
 //smooth scroll
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
